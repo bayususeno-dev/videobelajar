@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    height: 80px;
+    gap: 36px;
+    padding: 12px 120px 12px 120px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(58, 53, 65, 0.12);
+}
+
+.navbar details {
+    display: flex;
+    align-items: center;
+    color: var(--dark-secondary-text);
+}
+
+.navbar summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 24px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.user-profile {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
