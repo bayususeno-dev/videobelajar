@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - videobelajar</title>
+
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <script src="/scripts/navbar-auth.js"></script>
+    <main class="register-page">
+      <section class="register-card">
+        <header class="header-register">
+          <h1 class="heading-3 dark-primary-text">Pendaftaran Akun</h1>
+          <p class="body-medium-regular dark-secondary-text">
+            Yuk, daftarkan akunmu sekarang juga!
+          </p>
+        </header>
+
+        <form class="register-form">
+          <div class="form-group">
+            <label
+              for="full-name"
+              class="body-medium-medium dark-secondary-text"
+            >
+              Nama Lengkap
+            </label>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder=""
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="body-medium-medium dark-secondary-text">
+              E-mail
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=""
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label
+              for="call-number"
+              class="body-medium-medium dark-secondary-text"
+            >
+              No. HP
+            </label>
+
+            <div class="phone-input">
+              <div class="phone-country">
+                <img
+                  src="/assets/icons/ind-flag.png"
+                  alt="Indonesia"
+                  class="country-flag"
+                />
+
+                <span
+                  class="country-code body-medium-medium dark-secondary-text"
+                  >+62</span
+                >
+
+                <img
+                  src="/assets/icons/dropdown.png"
+                  alt=""
+                  class="country-arrow"
+                />
+              </div>
+
+              <input type="tel" id="call-number" placeholder="" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label
+              for="password"
+              class="body-medium-medium dark-secondary-text"
+            >
+              Kata Sandi
+            </label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder=""
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label
+              for="confirm-password"
+              class="body-medium-medium dark-secondary-text"
+            >
+              Konfirmasi Kata Sandi
+            </label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder=""
+              required
+            />
+          </div>
+
+          <a
+            href="#"
+            class="forgot-password body-medium-medium dark-secondary-text"
+            >Lupa kata sandi?</a
+          >
+
+          <button type="submit" class="button-green button-primary-contained">
+            Daftar
+          </button>
+          <a href="#" class="button-softgreen button-primary-shadow"> Masuk </a>
+
+          <button
+            type="button"
+            class="button-google body-medium-bold dark-secondary-text"
+          >
+            <img
+              src="/assets/icons/google-icons.png"
+              alt=""
+              class="google-icons"
+            />Masuk dengan Google
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

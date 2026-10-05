@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - videobelajar</title>
+
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+    <script src="/scripts/navbar-auth.js"></script>
+
+    <main class="login-page">
+      <section class="login-card">
+        <header class="header-login">
+          <h1 class="heading-3 dark-primary-text">Masuk ke Akun</h1>
+
+          <p class="body-medium-regular dark-secondary-text">
+            Yuk, lanjutin belajarmu di videobelajar
+          </p>
+        </header>
+
+        <form class="login-form">
+          <div>
+            <label class="body-medium-regular dark-secondary-text" for="email">
+              E-mail
+            </label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=""
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              class="body-medium-regular dark-secondary-text"
+              for="password"
+            >
+              Password
+            </label>
+
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder=""
+              required
+            />
+          </div>
+
+          <a
+            href="#"
+            class="forgot-password body-medium-medium dark-secondary-text"
+            >Lupa kata sandi?</a
+          >
+
+          <button type="submit" class="button-green button-primary-contained">
+            Masuk
+          </button>
+          <a
+            href="/pages/authentication/register.html"
+            class="button-softgreen button-primary-shadow"
+          >
+            Daftar
+          </a>
+
+          <div class="login-divider">
+            <span class="body-medium-regular dark-secondary-text">atau</span>
+          </div>
+
+          <button
+            type="button"
+            class="button-google body-medium-bold dark-secondary-text"
+          >
+            <img
+              src="/assets/icons/google-icons.png"
+              alt=""
+              class="google-icons"
+            />
+            Masuk dengan Google
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

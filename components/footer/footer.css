@@ -1,7 +1,7 @@
 footer {
     padding: 60px 80px;
     background: var(--primary-background);
-    color: var(--light-primary-text);
+    color: var(--dark-primary-text);
 }
 
 .footer-brand {
@@ -50,7 +50,7 @@ footer {
     justify-content: space-between;
     margin-top: 40px;
     padding-top: 24px;
-    border-top: 1px solid var(--light-primary-secondary);
+    border-top: 1px solid var(--greyscale-300);
 }
 
 .footer-social {
