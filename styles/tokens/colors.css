@@ -58,10 +58,18 @@
     --error-background: rgba(252, 227, 209, 1);
 
     /* GRADIENTS */
-    --gradients-info: linear-gradient(90deg, rgba(0, 76, 232, 1), rgba(111, 158, 255, 1));
-    --gradients-success: linear-gradient(90deg, rgba(0, 194, 71, 1), rgba(115, 255, 166, 1));
-    --gradients-warning: linear-gradient(90deg, rgba(255, 225, 106, 1), rgba(255, 229, 128, 0.21));
-    --gradients-error: linear-gradient(90deg, rgba(255, 51, 51, 1), rgba(255, 138, 155, 1));
+    --gradients-info: linear-gradient(90deg,
+            rgba(0, 76, 232, 1),
+            rgba(111, 158, 255, 1));
+    --gradients-success: linear-gradient(90deg,
+            rgba(0, 194, 71, 1),
+            rgba(115, 255, 166, 1));
+    --gradients-warning: linear-gradient(90deg,
+            rgba(255, 225, 106, 1),
+            rgba(255, 229, 128, 0.21));
+    --gradients-error: linear-gradient(90deg,
+            rgba(255, 51, 51, 1),
+            rgba(255, 138, 155, 1));
 
     /* GREYSCALE */
     --greyscale-900: rgba(33, 33, 33, 1);

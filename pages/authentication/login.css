@@ -105,3 +105,13 @@
     height: 20px;
     object-fit: contain;
 }
+
+@media (max-width: 768px) {
+    .login-page {
+        padding: 32px 16px;
+    }
+
+    .login-card {
+        padding: 24px 20px;
+    }
+}
